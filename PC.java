@@ -14,9 +14,9 @@ public class PC {
     }
     public void description(){
         System.out.println("Welcome to worst buy below is the description of the pc on sale today" + '\n');
-        System.out.println(case1.toString());
-        System.out.println(motherBoard.toString());
-        System.out.println(monitor.toString());
+        System.out.println(case1);
+        System.out.println(motherBoard);
+        System.out.println(monitor);
     }
     public void powerUp(){
         case1.pressPowerButton();

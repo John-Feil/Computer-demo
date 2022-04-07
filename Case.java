@@ -11,6 +11,6 @@ public class Case {
     }
     public String toString(){
         return ("The case model is " + model + '\n' + "The case manufacturer is " + manufacturer + '\n'
-                + "The case powersupply is " + powerSupply + '\n' + "The dimensions are :" + dimensions.toString() + '\n');
+                + "The case powersupply is " + powerSupply + '\n' + "The dimensions are :" + dimensions + '\n');
     }
 }
