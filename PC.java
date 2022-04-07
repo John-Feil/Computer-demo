@@ -10,7 +10,7 @@ public class PC {
         this.monitor = monitor;
     }
     private void drawLogo(){
-        monitor.drawPixel(5,10,"Red");
+        monitor.drawPixel(50,60,"blue");
     }
     public void description(){
         System.out.println("Welcome to worst buy below is the description of the pc on sale today" + '\n');
@@ -21,7 +21,7 @@ public class PC {
     public void powerUp(){
         case1.pressPowerButton();
         drawLogo();
-        motherBoard.loadProgram("IntelliJ");
+        motherBoard.loadProgram("Windows");
     }
 
 }

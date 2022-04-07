@@ -7,5 +7,6 @@ public class Main {
         Monitor newMonitor = new Monitor();
         PC pc = new PC(newCase,newMotherBoard,newMonitor);
         pc.description();
+        pc.powerUp();
     }
 }
